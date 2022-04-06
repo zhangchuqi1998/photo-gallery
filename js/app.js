@@ -11,7 +11,7 @@ imageIndex.forEach(i => {
     image.classList.add('galleryImg');
     image.addEventListener('click', ()=>{
         popup.style.transform = 'translateY(0)'
-        selectedImage.src = `/img/img-${i}.jpg`;
+        selectedImage.src = `img/img-${i}.jpg`;
         selectedImage.alt = `img-${i}`;
     })
     gallery.appendChild(image);
