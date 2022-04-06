@@ -6,7 +6,7 @@ const selectedIndex = null;
 
 imageIndex.forEach(i => {
     const image = document.createElement('img');
-    image.src = `/img/img-${i}.jpg`;
+    image.src = `img/img-${i}.jpg`;
     image.alt = `image ${i}`;
     image.classList.add('galleryImg');
     image.addEventListener('click', ()=>{
